@@ -1,1 +1,18 @@
-クライアントからこんなファイルを送ります。
+GET /index.html HTTP/1.1
+Host: localhost:8001
+Connection: keep-alive
+sec-ch-ua: "Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "macOS"
+DNT: 1
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ja,en;q=0.9
+Cookie: screenResolution=1512x982; _ga=GA1.1.1849837381.1685275896; _gcl_au=1.1.1412653110.1685275896; __session=eyJhbGciOiJSUzI1NiIsImtpZCI6IjJkM2E0YTllYjY0OTk0YzUxM2YyYzhlMGMwMTY1MzEzN2U5NTg3Y2EiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vaW50ZXJuLWJveC1kZXYiLCJhdWQiOiJpbnRlcm4tYm94LWRldiIsImF1dGhfdGltZSI6MTY4NTI4MTA5MywidXNlcl9pZCI6IjNhTmhYSVN5cFdjVWFneG5oUUlWZmtxOU1INjMiLCJzdWIiOiIzYU5oWElTeXBXY1VhZ3huaFFJVmZrcTlNSDYzIiwiaWF0IjoxNjg1MjgxMDkzLCJleHAiOjE2ODUyODQ2OTMsImVtYWlsIjoic3BkZTZnNTlAYXJyb3cub2NuLm5lLmpwIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7ImVtYWlsIjpbInNwZGU2ZzU5QGFycm93Lm9jbi5uZS5qcCJdfSwic2lnbl9pbl9wcm92aWRlciI6InBhc3N3b3JkIn19.b8stei8zsZsTA5eq8h1xOpH6WNkOsTutk22PJXhnC3nzyrgkBPRGf6Ubljm0hXh7esa3gVy02wAmwwrJRNdR9Efn_v2_ywPK3613ljzCw-st4PErt-kEkfc_3OP8xSs6PT_ivMvWpK8grfuI7Lpqi274fOLSZnzLkSUzmG6isRmka7vtTp7kx7yb44iFhUgezs0ekTIeCX21dLj3w4q2vHi3GPI8XyUbBFp84noj0EDrSu_Dnw2TSNVHG6FmBcg8xaQDrQ0ZqqS5fw59wtMFdnfDXtZwN8O8tJ6duEyAnX4aZCgMAtUvpa_R9e9_tCMLX5D-iSIVs9mDJaSGv8Rs5A; refresh-token=APZUo0SNSqGsf1RmuDw_4R3uMxlPiBkLE4V2d1xH-gAZXCm0SnQoq9B42OanOgJxqfoVmqI0ZXHyPZRu1UIOat1-D5Q3vyPbh93F1XoRDNsh8mY5SQOGG7rK7G6h6eU9PACWu8BcPUbn9vpTbwUVoRwFftHRtSi8eyMu4xg-SEcKmX-rKQ5qxK_OgFs461pN0ipCnJs0Hl2gW-SmT9-ZO2DBedBfrizbSQ; _ga_Z7TVDVJZRJ=GS1.1.1685281081.2.1.1685282734.0.0.0
+
