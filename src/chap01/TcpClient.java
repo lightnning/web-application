@@ -1,12 +1,12 @@
 import java.io.*;
 import java.net.*;
- 
+
 public class TcpClient {
     public static void main(String[] args) throws Exception {
         try (Socket socket = new Socket("localhost", 8001);
-             FileInputStream fis = new FileInputStream("client_send.txt");
-             FileOutputStream fos = new FileOutputStream("client_recv.txt")) {
-            
+                FileInputStream fis = new FileInputStream("client_send.txt");
+                FileOutputStream fos = new FileOutputStream("client_recv.txt")) {
+
             int ch;
             // client_send.txtの内容をサーバに送信
             OutputStream output = socket.getOutputStream();
