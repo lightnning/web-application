@@ -4,8 +4,8 @@ import java.net.*;
 public class TcpServer {
     public static void main(String[] argv) throws Exception {
         try (ServerSocket server = new ServerSocket(8001);
-             FileOutputStream fos = new FileOutputStream("server_recv.txt");
-             FileInputStream fis = new FileInputStream("server_send.txt")) {
+                FileOutputStream fos = new FileOutputStream("server_recv.txt");
+                FileInputStream fis = new FileInputStream("server_send.txt")) {
             System.out.println("クライアントからの接続を待ちます。");
             Socket socket = server.accept();
             System.out.println("クライアント接続。");
